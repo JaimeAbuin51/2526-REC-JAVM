@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - Examen/src/**
+      - ./Examen/src/**
   pull_request:
     branches: [ main ]
     paths:
-      - Examen/src/**
+      - ./Examen/src/**
 
 jobs:
   build:
