@@ -21,7 +21,7 @@ def read_root():
 
 @app.get("/status")
 def status():
-    return {"message": "FastAPI Abuin-Jaime 1.0.0"}
+    return {"message": "FastAPI Abuin-Jaime 5.0.0"}
 
 
 @app.get("/db-check")
