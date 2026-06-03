@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 # ENV PYTHONDONTWRITEBYTECODE 1
 # ENV PYTHONUNBUFFERED 1
 
-WORKDIR /app
+WORKDIR Examen/src
 
 # Instalamos dependencias del sistema necesarias para psycopg2
 RUN apt-get update && apt-get install -y libpq-dev gcc && rm -rf /var/lib/apt/lists/*
